@@ -1,0 +1,240 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("image/background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navigation {
+    background-color: #444444;
+    list-style: none;
+    margin: 0;
+    height: 10px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li:hover {
+    color: darkgray;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+footer.base {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: ghostwhite;
+    text-align: center;
+    background-color: rgba(29, 236, 206, 0.8);
+}
+
+.home {
+    text-align: center;
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.6)
+}
+
+.home table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 6em;
+    color: black;
+    padding: 0;
+}
+
+.subname {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    padding: 0;
+}
+
+.imgicon {
+    width: 50px;
+    height: 50px;
+}
+
+.imgicon:hover {
+    width: 60px;
+    height: 60px;
+    transition-duration: 0.5s;
+}
+
+.spaceabout {
+    background-color: aliceblue;
+    margin: 0;
+    top: 25%;
+    padding: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+h1.about {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.pictureme {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.descriptionme {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.spaceresume {
+    background-color: aliceblue;
+    background: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+}
+
+h1.resume {
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.spaceresume h2 {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 23px;
+    text-decoration: underline;
+    color: black;
+}
+
+.spaceresume p {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+span.gradyear {
+    float: right;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+span.school {
+    font-style: italic;
+}
+
+span.job {
+    font-weight: bold;
+}
+
+.spaceresume ul {
+    text-align: left;
+    margin-left: 120px;
+    font-size: 17px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.spaceprojects {
+    background-color: aliceblue;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.spaceprojects h1 {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.spaceprojects h2 {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.spaceprojects p {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+a.viewgit {
+    font-size: 20px;
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+a.viewgit:hover {
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+.contact {
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact ul{
+    text-align: center;
+}
+
+.contact table {
+    margin: 0 auto;
+}
+
+.login {
+    text-align: left;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+.logout {
+    float: right;
+    font-weight: bolder;
+}
+
+.errorLogin {
+    background-color: blue;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+

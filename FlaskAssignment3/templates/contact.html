@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Contact Me
+{% endblock %}
+
+{% block content %}
+    <div class="container col-lg-8 offset-lg-2  col-md-12  col-sm-12 col-xs-12 container contact">
+        <h1>Contact Me</h1>
+        <form action="/contact" method="post">
+            {{  form.csrf_token }}
+            <table>
+                 <tr>
+                     <td>{{form.name.label}}</td>
+                     <td>{{form.name(size=22)}}</td>
+                 </tr>
+                 <tr>
+                     <td>{{form.email.label}}</td>
+                     <td>{{form.email(size=22)}}</td>
+                 </tr>
+                 <tr>
+                     <td>{{form.message.label}}</td>
+                     <td>{{form.message(size=25)}}</td>
+                 </tr>
+                 <tr>
+                     <td></td>
+                     <td>{{form.submit()}}</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+    <div class="container col-lg-8 offset-lg-2  col-md-12  col-sm-12 col-xs-12 container home">
+            <h1 class="name">Jean-François Vo</h1>
+            <h2 class="subname">Software Engineer | Student </h2>
+            <a href="https://github.com/jfv-2000"> <img class="imgicon" src="static/image/github.png" alt="github icon"> </a>
+            <a href="https://www.linkedin.com/in/jean-francois-vo-5967301a0/"> <img class="imgicon" src="static/image/linkedin.png" alt="linkedin icon"> </a>
+    </div>
+    <footer class="base">
+        <h2>How did you discover this website ?</h2>
+        <div>
+            <form action="" method="POST">
+                {{ form.answer() }}
+                {{ form.submit() }}
+            </form>
+        </div>
+    </footer>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}
+    contactData
+{% endblock %}
+
+{% block content %}
+    <div class="container col-lg-8 offset-lg-2  col-md-12  col-sm-12 col-xs-12 container contact">
+        <h1>
+            Contact Data
+        </h1>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+            {% for contactInfo in data %}
+            <tr>
+                <td>{{ contactInfo[1] }}</td>
+                <td>{{ contactInfo[2] }}</td>
+                <td>{{ contactInfo[3] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}
